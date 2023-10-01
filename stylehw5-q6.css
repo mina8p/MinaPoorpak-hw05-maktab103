@@ -8,18 +8,56 @@
 .card {
     width: 400px;
     height: 500px;
-    background-color: #a168a1;
-    border-radius: 5px;
+    background-image: linear-gradient(rgb(120, 119, 252),rgb(167, 54, 235));
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
+    flex-direction: column;
+    gap :30px;
   }
+.up{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom:1px solid white;
+  width: 80%;
+  gap: 8px;
+  padding: 5px;
+  
+  
+}
+
+.desing{
+ 
+ border: none;
+ color: white;
+ outline: none;
+ background-color: transparent ;
+ 
+}
+.bi{
+  color: white;
+  }
+.rm{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  width: 80%;
+  font-size:12px;
+  color: white;
+}
+
+input{
+  color: white;
+}
 
 body {
-    font-family: Arial, sans-serif;
    
-    background-color: #cc79cc9a;
+    background-image: url(./img/bgc1.jpg);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,21 +65,12 @@ body {
     margin: 0;
   }
 
-  .profile {
-    position: relative;
-    padding: 30px;
-  }
+  
   
   .profile-picture {
     width: 100px;
     height: 100px;
-    border: 4px solid white;
     border-radius: 50%;
-    position: absolute;
-    bottom: 50px;
-    left: 40%;
-    
-    
   }
   
   .profile-picture img {
@@ -51,14 +80,6 @@ body {
     
   }
   
-  .container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #8e44ad;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
   
   h2 {
     text-align: center;
@@ -73,67 +94,16 @@ body {
     padding: 20px;
   }
   
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 3px;
-  }
-  
-  input[type="checkbox"] {
-    margin-right: 5px;
-  }
 
-
-  /* .human-picture{
-    width: 50px;
-    height: 50px;
-    border: 4px solid white;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 50px;
-    left: 40%;
-    position: relative;
-    padding: 30px;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-  }
-  
-.lock-picture{
-    width: 50px;
-    height: 50px;
-    border: 4px solid white;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 50px;
-    left: 40%;
-    position: relative;
-    padding: 30px;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-} */
 
   .lg[type="submit"] {
     width: 60px;
-    height: 10px;
+    height: 30px;
     padding: 10px;
     background-color: white;
     color: black;
     border: none;
-    border-radius: 40px;
+    border-radius: 50px;
     cursor: pointer;
 
 
@@ -143,16 +113,9 @@ body {
   }
   
   .lg[type="submit"]:hover {
-    background-color: #a53d73;
+    background-color: #633da5;
   }
   
-  .forget-password {
-    
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-
 
   .fp{
     width: 150px;
@@ -160,4 +123,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent ;
+    border: none;
+    color: white;
+    margin-top: 20;
   }
